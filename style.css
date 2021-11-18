@@ -47,7 +47,7 @@ a {
   z-index: 1;
 } */
 .first-section {
-  padding: 0 90px 0 90px;
+  padding: 40px 90px 40px 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,15 +115,10 @@ li {
 ul li:nth-of-type(2n) {
   text-align: right;
 }
-/* .second-section-description {
-  width: 100%;
-  height: 100%;
-} */
 .second-section-circle-1 {
   width: 197px;
   height: 197px;
   border-radius: 50%;
-  background-color: gold;
   padding: 100px;
   background: url(https://placekitten.com/423/430);
   background-position: center;
@@ -133,7 +128,6 @@ ul li:nth-of-type(2n) {
   width: 197px;
   height: 197px;
   border-radius: 50%;
-  background-color: gold;
   padding: 100px;
   background: url(https://placekitten.com/426/430);
   background-position: center;
