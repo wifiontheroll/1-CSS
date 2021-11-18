@@ -4,6 +4,7 @@
   font-style: normal;
   box-sizing: border-box;
   list-style-type: none;
+  font-size: 18px;
 }
 html {
   scroll-behavior: smooth;
@@ -20,7 +21,6 @@ body {
   display: flex;
   flex-direction: row;
   height: 50px;
-  font-size: 18px;
   align-items: center;
   color: #ffffff;
   background-color: #4e4e4e;
@@ -36,12 +36,10 @@ body {
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
-  font-weight: 400;
 }
 a {
   color: #ffffff;
   text-decoration: none;
-  font-weight: 400;
   font-style: normal;
 }
 /* .shadow {
@@ -71,7 +69,6 @@ a {
 .first-section-cta {
   width: 276px;
   height: 23.13px;
-  font-size: 18px;
   font-weight: 700;
 }
 .first-section-btn {
@@ -79,7 +76,6 @@ a {
   height: 40.74px;
   border: 3px solid #ffffff;
   font-weight: 700;
-  font-size: 18px;
   background: transparent;
   transition-property: all;
   transition-duration: 1s;
@@ -105,11 +101,11 @@ a {
   font-weight: 700;
   color: #152d41;
 }
-/* .second-section-specialists {
+.second-section-specialists {
   width: 100%;
   height: 100%;
   align-items: center;
-} */
+}
 li {
   display: flex;
   flex-direction: row;
@@ -119,11 +115,10 @@ li {
 ul li:nth-of-type(2n) {
   text-align: right;
 }
-.second-section-description {
-  font-size: 18px;
+/* .second-section-description {
   width: 100%;
   height: 100%;
-}
+} */
 .second-section-circle-1 {
   width: 197px;
   height: 197px;
@@ -177,7 +172,6 @@ ul li:nth-of-type(2n) {
   font-size: 24px;
   text-align: center;
   position: relative;
-  font-weight: 400;
 }
 .third-section-box:hover {
   transition-duration: 0.5s;
@@ -204,7 +198,6 @@ ul li:nth-of-type(2n) {
 .footer-copyrights {
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
 }
 .footer-sm-icons {
   display: flex;
