@@ -53,7 +53,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: flex-start; */
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.15);
   background: url(https://placekitten.com/1200/628);
@@ -85,10 +84,11 @@ a {
   font-size: 18px;
   align-items: center;
   background: transparent;
-  transition: 1s;
+  transition-property: all;
+  transition-duration: 1s;
   color: #ffffff;
 }
-.btn:hover {
+.first-section-btn:hover {
   background: white;
   color: black;
 }
@@ -111,7 +111,7 @@ a {
 li {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 60px;
   margin-bottom: auto;
 }
 
@@ -123,13 +123,23 @@ ul li:nth-of-type(2n) {
   width: 100%;
   height: 100%;
 }
-.second-section-circle {
+.second-section-circle-1 {
   width: 197px;
   height: 197px;
   border-radius: 50%;
   background-color: gold;
   padding: 100px;
-  background: url(http://placekitten.com/422/422);
+  background: url(https://placekitten.com/423/430);
+  background-position: center;
+  background-size: cover;
+}
+.second-section-circle-2 {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  background-color: gold;
+  padding: 100px;
+  background: url(https://placekitten.com/426/430);
   background-position: center;
   background-size: cover;
 }
@@ -194,7 +204,6 @@ ul li:nth-of-type(2n) {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
 }
 .footer-sm-icons {
   display: flex;
