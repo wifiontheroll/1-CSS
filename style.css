@@ -113,9 +113,6 @@ li {
 ul li:nth-of-type(2n) {
   text-align: right;
 }
-.second-section-description {
-  /* text-align: right; */
-}
 .second-section-circle-1 {
   width: 197px;
   height: 197px;
