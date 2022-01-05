@@ -46,9 +46,8 @@ a {
   justify-content: center;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("sneaky.jpg");
+    url("maincover.jpg");
   background-position: center top;
-  height: 100vh;
   color: #ffffff;
   background-size: cover;
 }
